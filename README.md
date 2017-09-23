@@ -13,7 +13,7 @@ ai.lock is a image-based authentication mechanism, alternative to biometrics. ai
 
 Requirements: Tensorflow, Nearpy , h5py, scikit-image, numpy, sklearn
 
-##### Computing Inception v3 activations for a dataset of images
+#### Computing Inception v3 activations for a dataset of images
 To create the required datasets for the experiments, take the following steps:
 
 1. Use the Tensorflow official example code for computing the activations of a desired layer of Inception v3 network for all the images in ALOI, Google and Yfcc100m datasets. Note that, the parameters “BOTTLENECK_TENSOR_NAME” and “BOTTLENECK_TENSOR_SIZE” should be set according to the desired Inception layer: (‘pool_3/_reshape:0’ and 2048 for the last hidden layer and ‘mixed_8/pool:0’ and 49152 for Mixed8_pool0 layer). For each image in the image dataset, the code will generate a text file that contains the activation of the specified layer of Inception v3 when the image is fed as the input to the network. 
@@ -47,14 +47,14 @@ projection[projection <= 0] = 0
 return projection
 ```
 
-##### Running Single/Multi Layer Single Image experiments
+#### Running Single/Multi Layer Single Image experiments
 Use the code provided under Single_image directory. To compute the best performing thresholds for binary classifications of images, use *single_image_cv_train.py*.
 To evaluate the performance of ai.lock on holdout set use *single_image_cv_holdout.py*.
 
-##### Running Single/Multi Layer Multi Image experiments
+#### Running Single/Multi Layer Multi Image experiments
 Use the code provided under Multi_image directory. To compute the best performing thresholds for binary classifications of images, and evaluate the performance of ai.lock on holdout set use multi_image.py.
 
-##### Synthetic image attack 
+#### Synthetic image attack 
 
 We have adapted the image augmentation code of [Sean Huver](https://github.com/huvers/img_augmentation).
 You can find the modified code in *augment.py*. 

@@ -7,7 +7,7 @@ ai.lock is a image-based authentication mechanism, alternative to biometrics. ai
  * [Nexus dataset](https://drive.google.com/open?id=0B-qU-nMycga7eFZiUEY3Q3V0SEU)
  * [Google Image dataset](https://drive.google.com/open?id=0B-qU-nMycga7Wm5oU2hLLUxQWk0)
  * [ALOI dataset](http://aloi.science.uva.nl/): Use 24,000 images in Illumination dataset
- * [Yfcc100m dataset](https://webscope.sandbox.yahoo.com/catalog.php?datatype=i&did=67) Use images with tag toy and not tag human/animal.
+ * [Yfcc100m dataset](https://webscope.sandbox.yahoo.com/catalog.php?datatype=i&did=67): Use images with toy tag and not human/animal tag.
 
 ### Python Code
 

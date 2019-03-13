@@ -1,6 +1,6 @@
 # ai.lock
 
-ai.lock is a image-based authentication mechanism, alternative to biometrics. ai.lock uses deep neural networks, to extract feature images, PCA and LSH for fast and secure image matching.
+[ai.lock](https://users.cs.fiu.edu/~carbunar/ai.lock.pdf) is a image-based authentication mechanism, alternative to biometrics. ai.lock uses deep neural networks, to extract feature images, PCA and LSH for fast and secure image matching.
 
 ### Datasets
 
